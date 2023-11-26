@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Document metadata, including character set and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspirational Author - Nunayon Avoseh</title>
+    <!-- Link to an external stylesheet for styling -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Inspirational Author</h1>
+        <p class="subtitle">Explore the Author side of Nunayon</p>
+    </header>
+
+    <!-- Introduction section -->
+    <section id="page1">
+        <div class="author-container">
+            <!-- Author details including a photo -->
+            <img src="C:\Users\ay_ch\Downloads\Website\Media\Picture.jpg" alt="Author Nunayon Avoseh" class="author-photo">
+            <div class="author-details">
+                <h2>About Nunayon Avoseh</h2>
+                <p>
+                    Welcome to the inspiring world of Nunayon Avoseh, a dedicated author on a mission to uplift hearts and
+                    minds through the power of words.
+                </p>
+
+                <!-- List of key works by the author -->
+                <h3>Key Works</h3>
+                <ul>
+                    <li>Quotes of Many Colours 1</li>
+                    <li>Quotes of Many Colours 2</li>
+                    <li>Refuse To Jump</li>
+                    <li>Your True Limit</li>
+                    <li>Embrace Your Opponent</li>
+                </ul>
+
+                <!-- Contact information for the author -->
+                <h3>Contact</h3>
+                <p>Email: avosehnunayon@gmail.com</p>
+
+                <!-- Buttons for interaction with the page -->
+                <button onclick="showGreeting()">Connect with Nunayon</button>
+                <p id="greeting"></p>
+
+                <button onclick="changePage('page2')">Explore Works</button>
+                <button onclick="generateQuote()">Get Inspired</button>
+                <p id="quote"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Works section -->
+    <section id="page2" style="display: none;">
+        <h2>Discover Nunayon's Inspirational Works</h2>
+        <p class="section-description">Explore some of Nunayon's empowering and motivational works below:</p>
+
+        <!-- Displaying information about each book -->
+        <div class="book-container">
+            <!-- Book 1 -->
+            <div class="book-card">
+                <img src="C:\Users\ay_ch\Downloads\Website\Media\QuotesofManyColours1.jpg" alt="Quotes of Many Colours 1 - Book Cover" class="book-cover">
+                <div class="book-details">
+                    <h3>Quotes of Many Colours 1</h3>
+                    <p>"Quotes of Many Colours 1" is my first book which highlights various meaningful and impactful quotes, as a result, pinpointing the true values of man.</p>
+                    <a href=https://www.amazon.com/Quotes-Many-Colours-Overcomers-Secrets-ebook/dp/B08F2JZV7K/ref=sr_1_4?crid=ERYI2UKM8A4U&keywords=nunayon+avoseh&qid=1700374469&sprefix=nunay%2Caps%2C81&sr=8-4 target="_blank"><button>Get it on Amazon</button></a>
+                </div>
+            </div>
+		 <!-- Book 2 -->
+            <div class="book-card">
+                <img src="C:\Users\ay_ch\Downloads\Website\Media\QuotesofManyColours2.jpg" alt="Quotes of Many Colours 2 - Book Cover" class="book-cover">
+                <div class="book-details">
+                    <h3>Quotes of Many Colours 2</h3>
+                    <p>"Quotes of Many Colours 2" is my second book which is a continuation of "Quotes of Many Colours 1" identifying different impactful quotes that sustains a man's journey to fulfilment.</p>
+                    <a href=https://www.amazon.com/Quotes-Many-Colours-Overcomers-Handout-ebook/dp/B08PPR8Z59/ref=sr_1_5?crid=10UGLMRRLS5ZX&keywords=nunayon+avoseh&qid=1700374938&sprefix=nunayon+avoseh%2Caps%2C87&sr=8-5 target="_blank"><button>Get it on Amazon</button></a>
+                </div>
+            </div>
+		 <!-- Book 3 -->
+            <div class="book-card">
+                <img src="C:\Users\ay_ch\Downloads\Website\Media\RefuseToJump.jpg" alt="Refuse To Jump - Book Cover" class="book-cover">
+                <div class="book-details">
+                    <h3>Refuse To Jump</h3>
+                    <p>"Refuse To Jump" is my third book which brings to the attention of its readers the benefits and value of adhering to Process.</p>
+                    <a href=https://www.amazon.com/Refuse-Jump-Process-Nunayon-Avoseh-ebook/dp/B08ZLT6TCQ/ref=sr_1_3?crid=10UGLMRRLS5ZX&keywords=nunayon+avoseh&qid=1700374938&sprefix=nunayon+avoseh%2Caps%2C87&sr=8-3 target="_blank"><button>Get it on Amazon</button></a>
+                </div>
+            </div>
+		 <!-- Book 4 -->
+            <div class="book-card">
+                <img src="C:\Users\ay_ch\Downloads\Website\Media\YourTrueLimit.jpg" alt="Your True Limit - Book Cover" class="book-cover">
+                <div class="book-details">
+                    <h3>Your True Limit</h3>
+                    <p>"Your True Limit" is my fourth book which attempts to reveal the power of the human mind, and the unlimited possibilities it could bring if when maximized.</p>
+                    <a href=https://www.amazon.com/Your-True-Limit-Power-Mind-ebook/dp/B0C6V5K1Z6/ref=sr_1_2?crid=10UGLMRRLS5ZX&keywords=nunayon+avoseh&qid=1700375191&sprefix=nunayon+avoseh%2Caps%2C87&sr=8-2 target="_blank"><button>Get it on Amazon</button></a>
+                </div>
+            </div>
+		 <!-- Book 5 -->
+            <div class="book-card">
+                <img src="C:\Users\ay_ch\Downloads\Website\Media\EmbraceYourOpponent.jpg" alt="Embrace Your Opponent - Book Cover" class="book-cover">
+                <div class="book-details">
+                    <h3>Embrace Your Opponent</h3>
+                    <p>"Embrace Your Opponent" is my fifth book which reflects what a man's journey to fulfilling purpose could look like, and the mentality he/she must exhibit in order to reach the finish line.</p>
+                    <a href=https://www.amazon.com/Embrace-Your-Opponent-Call-Purpose-ebook/dp/B0C9ZG8DWL/ref=sr_1_1?crid=10UGLMRRLS5ZX&keywords=nunayon+avoseh&qid=1700375191&sprefix=nunayon+avoseh%2Caps%2C87&sr=8-1 target="_blank"><button>Get it on Amazon</button></a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Buttons for navigation and audio control -->
+        <button onclick="changePage('page1')">Back to Introduction</button>
+        <button onclick="playAudio()">Listen to Feliz Navidad</button>
+        <button onclick="stopAudio()">Stop Music</button>
+
+        <!-- Audio element for background music -->
+        <audio id="audio" src="C:\Users\ay_ch\Downloads\Website\Media\Boney-M-Feliz-Navidad.mp3"></audio>
+    </section>
+
+    <!-- JavaScript script for dynamic functionality -->
+    <script>
+        // Array of inspirational quotes by the author
+        const authorQuotes = [
+            "What if you were at the final stage of the process? Don't give up now.",
+            "There's no resistance if you're not moving.",
+            "Track record gives value to your current stature. Keep creating yours.",
+            "Courage does not mean absence of fear, but you're afraid and still moving.",
+            "Just do it.",
+            "Not all challenges are negative, many bring out the best from us. True."
+        ];
+
+        // Function to display a greeting message and a LinkedIn link
+        function showGreeting() {
+            // Greeting message
+            var greetingMessage = "Hello, fellow seeker of inspiration! Let's connect on LinkedIn.";
+
+            // Replace the LinkedIn URL with the actual LinkedIn profile URL
+            var linkedInUrl = "https://www.linkedin.com/in/nunayon-avoseh/";
+
+            // Create a link element
+            var linkedInLink = document.createElement("a");
+            linkedInLink.href = linkedInUrl;
+            linkedInLink.target = "_blank"; // Open in a new tab or window
+            linkedInLink.textContent = "Connect on LinkedIn";
+
+            // Create a paragraph element for the greeting
+            var greetingParagraph = document.createElement("p");
+            greetingParagraph.textContent = greetingMessage;
+
+            // Append the greeting and LinkedIn link to the "greeting" element
+            document.getElementById("greeting").innerHTML = "";
+            document.getElementById("greeting").appendChild(greetingParagraph);
+            document.getElementById("greeting").appendChild(linkedInLink);
+        }
+
+        // Function to switch between pages
+        function changePage(pageId) {
+            document.getElementById('page1').style.display = 'none';
+            document.getElementById('page2').style.display = 'none';
+            document.getElementById(pageId).style.display = 'block';
+        }
+
+        // Function to play audio
+        function playAudio() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+
+        // Function to stop audio
+        function stopAudio() {
+            var audio = document.getElementById("audio");
+            audio.pause();
+            audio.currentTime = 0;
+        }
+
+        // Function to generate a random quote and display it
+        function generateQuote() {
+            const randomIndex = Math.floor(Math.random() * authorQuotes.length);
+            document.getElementById("quote").innerHTML = `"${authorQuotes[randomIndex]}"`;
+        }
+    </script>
+</body>
+
+</html>

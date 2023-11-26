@@ -1,0 +1,119 @@
+/* General styling for the entire body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header section */
+header {
+    background-color: #3498db;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+}
+
+/* Styling for subtitle within the header */
+.subtitle {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Styling for each section */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the container holding author information */
+.author-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Styling for the author's photo */
+.author-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Styling for the container holding author details */
+.author-details {
+    flex: 1;
+}
+
+/* Styling for buttons used throughout the page */
+button {
+    padding: 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #c0392b;
+}
+
+/* Styling for the container holding books */
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Styling for individual book cards */
+.book-card {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for book cards */
+.book-card:hover {
+    transform: scale(1.05);
+}
+
+/* Styling for book covers within book cards */
+.book-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Styling for details section within book cards */
+.book-details {
+    padding: 15px;
+}
+
+/* Styling for buttons within book cards */
+.book button {
+    width: 100%;
+    padding: 8px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons within book cards */
+.book button:hover {
+    background-color: #2980b9;
+}
